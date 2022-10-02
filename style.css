@@ -1,0 +1,126 @@
+body{
+  background-color: white;
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+}
+li{
+  margin-top: 5px;
+  font-family: Times New Roman;
+}
+
+hr{
+  color: black;
+}
+fieldset{
+  border-color: black;
+  margin-top: 20px;
+}
+legend{
+  font-weight: bold;
+  font-size: 18px;
+}
+input[type="text"],
+  input[type="date"], 
+  input[type="number"], 
+  select, textarea
+  {
+    width: 100%;
+    font-size: 18px;
+    margin: auto;
+    border: 1.5px solid black;
+    box-sizing: border-box;
+    padding: 12px 10px 12px 10px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+select{
+  position: relative;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pengiriman{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 260px;
+  width: 85%;
+}
+
+.tombol{
+  position: relative;
+  align-items: right;
+  width: 85%;
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #16bbe4;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+@media only screen and (min-width: 478px) and (max-width:600px){
+  .pembungkus{
+    width: 100%;
+  }
+  .header{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .pembungkus{
+    width: 100%;
+  }
+  .header{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px){
+  .pembungkus{
+    width: 100%;
+  }
+  .header{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px){
+  .pembungkus{
+    width: 100%;
+  }
+  .header{
+    width: 100%;
+  }
+}
